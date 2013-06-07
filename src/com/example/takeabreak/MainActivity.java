@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 	private TextView remainView;
 	private Button startBtn;
 	private Button stopBtn;
-	private int min;
+	private int min = 50;
 	private boolean isCounting;
 	
 	@Override
